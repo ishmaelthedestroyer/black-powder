@@ -100,7 +100,7 @@ this.configureGrid = function( selector ) {
 $(document).ready(function () {
   // configure mobile menu
   $("#menu").sidr();
-  
+
   // configure `a` and `img` tags in the grid.
   configureGrid('.work-section');
   configureGrid('.impact-section');
@@ -112,13 +112,13 @@ $(document).ready(function () {
   // selector of `a` tags that can trigger the subnav
   toggleNavSelector = 'a#toggleNav';
 
-  $(toggleNavSelector).click(function () 
+  $(toggleNavSelector).click(function ()
   {
     // 1. cache whether the corresponding container for clicked link is hidden
     selector = '.' + $(this).attr('href').split('#').join('');
     isHidden = $(selector).hasClass('hidden');
 
-    // 2. now hide all containers that can be toggled 
+    // 2. now hide all containers that can be toggled
     togglers = $(toggleNavSelector);
     togglers.each(function () {
       eachSelector = '.' + $(this).attr('href').split('#').join('');
