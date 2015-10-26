@@ -156,7 +156,7 @@ $(document).ready(function () {
   	$(this).attr('data-artists', nextHref);
   }
 
-  $(toggleArtistSelector).each(hideContainers);
+  // $(toggleArtistSelector).each(hideContainers);
 
   // handle toggle attempts
   toggleArtistClick = function () {
@@ -196,9 +196,9 @@ $(document).ready(function () {
   	console.log('done click');
   };
 
-  $(toggleArtistSelector).click(toggleArtistClick);
+  // $(toggleArtistSelector).click(toggleArtistClick);
 
-  toggleArtistClick.call($(toggleArtistSelector).first());
+  // toggleArtistClick.call($(toggleArtistSelector).first());
 
   // ------------
   // SPLASH VIDEO
