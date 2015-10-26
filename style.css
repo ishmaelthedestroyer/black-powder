@@ -234,7 +234,7 @@ video#bgvid {
   text-align: center;
 }
 
-.contact-section ul {
+.contact-footer ul {
   list-style: none;
   display: inline-block;
   margin: 0 auto;
@@ -242,7 +242,7 @@ video#bgvid {
   min-height: 50px;
 }
 
-.contact-section ul li {
+.contact-footer ul li {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -251,12 +251,8 @@ video#bgvid {
   text-shadow: none;
 }
 
-.contact-section ul li a {
-  color: #333;
-}
-
-.contact-section ul li a:hover {
-  color: #777;
+.contact-footer ul li a {
+  font-size: 8pt;
 }
 
 @media only screen and (max-width : 480px) {

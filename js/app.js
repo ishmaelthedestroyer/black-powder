@@ -5,7 +5,17 @@
  * configures an `img` element in our Grid use a Color.png on hover.
  */
 this.configureGridItemHover = function( img ) {
-  hover_url = img.attr('src').split("BW.png").join("Color.png");
+  var
+    split = img.attr('src').split('BW.png'),
+    newEnding = 'Color.png';
+
+  if (split.length === 1) {
+    split = img.attr('src').split('-bw.png');
+    newEnding = '.png';
+  }
+
+  // hover_url = img.attr('src').split("BW.png").join("Color.png");
+  hover_url = split.join(newEnding);
 
   img.hoverImg(hover_url);
 
