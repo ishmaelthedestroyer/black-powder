@@ -152,15 +152,35 @@ video#bgvid {
 
 .clients {
   min-height: 100vh;
-  background-color: #000;
-  background-size: auto 100%;
+  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(img/clients.jpg);
 }
 
+@media (min-width: 768px) {
+  .clients {
+    background-size: 750px auto;
+    min-height: 650px;
+  }
+}
+
+@media (min-width: 992px) {
+  .clients {
+    background-size: 970px auto;
+    min-height: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .clients {
+    background-size: 1170px auto;
+    min-height: 850px;
+  }
+}
+
 .contact {
-  min-height: 100vh;
+  min-height: 90vh;
   position: relative;
   /*
   background-color: rgba(0, 0, 0, 0.8);
@@ -171,7 +191,6 @@ video#bgvid {
   background-position: center;
   text-align: center;
   white-space: no-wrap;
-  min-height: 100vh;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
