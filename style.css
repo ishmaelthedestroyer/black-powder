@@ -150,15 +150,43 @@ video#bgvid {
   border: none;
 }
 
+.clients {
+  min-height: 100vh;
+  background-color: #000;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(img/clients.jpg);
+}
+
 .contact {
+  min-height: 100vh;
   position: relative;
+  /*
   background-color: rgba(0, 0, 0, 0.8);
   background-image: url('img/clients.jpg');
+  */
   background-size: 100% auto;
   background-size: cover;
   background-position: center;
   text-align: center;
   white-space: no-wrap;
+  min-height: 100vh;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
 }
 
 .contact-overlay {
@@ -167,7 +195,7 @@ video#bgvid {
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url(img/overlay-pattern.png);
+    /* background-image: url(img/overlay-pattern.png); */
     background-repeat: repeat;
 }
 
