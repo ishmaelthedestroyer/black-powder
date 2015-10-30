@@ -230,10 +230,11 @@ video#bgvid {
   margin-left: -25%;
 }
 
-.contact-header h3 {
+.contact-header h4 {
   color: white;
   text-align: center;
   margin-top: 8px;
+  font-size: 24px;
 }
 
 .contact-section-old {
