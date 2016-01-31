@@ -14,6 +14,16 @@ this.configureGridItemHover = function( img ) {
     newEnding = '.png';
   }
 
+  if (split.length === 1) {
+    split = img.attr('src').split('bw.jpg');
+    newEnding = '.jpg';
+  }
+
+  if (split.length === 1) {
+    split = img.attr('src').split('_BW.jpg');
+    newEnding = '.jpg';
+  }
+
   // hover_url = img.attr('src').split("BW.png").join("Color.png");
   hover_url = split.join(newEnding);
 

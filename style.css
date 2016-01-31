@@ -2,6 +2,10 @@ body {
   font-family: "typical_writerregular", "corbertregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
 .clear-div,
 .clear-20,
 .clear-50 {
