@@ -6,7 +6,7 @@
 |--------------------------------------------------------------------------
 */
 
-define("EMAIL" , "team@blackpowderworks.com");
+define("EMAIL" , "inquire@blackpowderworks.com");
 define("SUBJECT" , "BPW Website Contact Form Submission");
 
 define("NAME_MSG" , "Please insert your name");
