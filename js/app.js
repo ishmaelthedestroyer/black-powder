@@ -15,6 +15,11 @@ this.configureGridItemHover = function( img ) {
   }
 
   if (split.length === 1) {
+    split = img.attr('src').split('_bw.jpg');
+    newEnding = '.jpg';
+  }
+
+  if (split.length === 1) {
     split = img.attr('src').split('bw.jpg');
     newEnding = '.jpg';
   }
