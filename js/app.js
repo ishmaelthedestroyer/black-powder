@@ -334,4 +334,6 @@ $(document).ready(function () {
   	return false;
   });
 
+  // initialize WOW to animate text
+  new WOW().init();
 });
