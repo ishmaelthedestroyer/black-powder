@@ -198,8 +198,9 @@ video#bgvid {
   pointer-events: none;
 }
 
+.item-brand.visible,
 .item:hover .item-brand {
-  display: block;
+  display: block !important;
 }
 
 .item-brand div,
